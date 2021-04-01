@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+    image-share:
+        container_name: backend
+        build: ./
+        command: npm run dev
+        working_dir: /usr/src/img-share
+        ports:
+            - "8080:8080"
+        volumes: 
+            - ./:/usr/src/img-share

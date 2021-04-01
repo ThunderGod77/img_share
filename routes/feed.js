@@ -19,6 +19,7 @@ const router = express.Router();
 router.get("/popular",async(req,res,next)=>{
   let pageNum = req.query.page
   try {
+    
     const rep = await getFeedP(pageNum)
     res.status(200).json({err:false,data:rep})
   } catch (error) {
