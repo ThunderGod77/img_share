@@ -1,0 +1,29 @@
+{
+  "name": "assi_3",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.869.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.12.1",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "sib-api-v3-sdk": "^8.2.0",
+    "uuid": "^8.3.2"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
