@@ -32,7 +32,7 @@ app.use("/users",userRouter)
 app.use("/feed",feedRouter)
 
 
-app.listen(8080, () => {
+app.listen(process.env.PORT || 8080, () => {
   console.log("Serving on port 8080");
   // addReplies("605a207b93653a53c05a71b6","605ad96ac112b04b5b3e880f",{username:"lol",comment:"lol"})
   // deleteReplies("605a207b93653a53c05a71b6","605ad96ac112b04b5b3e880f","605b0f13f8c1f36b65d1d6ec")

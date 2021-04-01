@@ -10,3 +10,4 @@ services:
             - "8080:8080"
         volumes: 
             - ./:/usr/src/img-share
+        env_file: .env

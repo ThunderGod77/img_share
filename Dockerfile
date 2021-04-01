@@ -7,4 +7,6 @@ COPY ./ ./
 RUN npm install
 
 
-CMD ["/bin/bash"]
+EXPOSE 8080
+
+CMD [ "node", "app.js" ]

@@ -8,3 +8,5 @@ digital ocean spaces for storing images(aws-sdk amd multer s3 for connecting to 
 Frontend Repo:
 https://github.com/ThunderGod77/img_share_frontend (react) 
 
+Hosted on heroku:(using Heroku Container Registry) 
+https://img-share-anime.herokuapp.com/ping
